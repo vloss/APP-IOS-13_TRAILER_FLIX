@@ -19,7 +19,7 @@
                                 <rect key="frame" x="55" y="89" width="371" height="270"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="EVK-eB-NsE" detailTextLabel="7k2-DT-k3E" style="IBUITableViewCellStyleValue1" id="xry-4f-leN">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" textLabel="EVK-eB-NsE" detailTextLabel="7k2-DT-k3E" style="IBUITableViewCellStyleValue1" id="xry-4f-leN">
                                         <rect key="frame" x="0.0" y="50" width="371" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xry-4f-leN" id="VFS-Cu-JO5">
@@ -64,7 +64,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vl-ea-nzy">
-                                <rect key="frame" x="0.0" y="20" width="852" height="32"/>
+                                <rect key="frame" x="0.0" y="19.999999999999996" width="852" height="33.666666666666657"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Como deseja ver seus ">
                                         <attributes>
@@ -105,7 +105,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="Ca8-oN-Pz4" id="mf7-ZF-Pwq"/>
-                        <segue destination="Cvc-EL-aOF" kind="show" id="1ab-cd-pXU"/>
+                        <segue destination="Cvc-EL-aOF" kind="show" identifier="trailerSegue" id="1ab-cd-pXU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

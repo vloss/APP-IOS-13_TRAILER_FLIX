@@ -15,6 +15,7 @@
 		B742C04329A084E40048460E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B742C04129A084E40048460E /* LaunchScreen.storyboard */; };
 		B742C04B29A276250048460E /* trailers.json in Resources */ = {isa = PBXBuildFile; fileRef = B742C04A29A276250048460E /* trailers.json */; };
 		B742C04D29A2CCCE0048460E /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742C04C29A2CCCE0048460E /* TrailerViewController.swift */; };
+		B7DE478529A5247F00164A82 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DE478429A5247F00164A82 /* Trailer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B742C04429A084E40048460E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B742C04A29A276250048460E /* trailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trailers.json; path = "../../Arquivos TrailerFlix/trailers.json"; sourceTree = "<group>"; };
 		B742C04C29A2CCCE0048460E /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		B7DE478429A5247F00164A82 /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				B742C03829A084E30048460E /* SceneDelegate.swift */,
 				B742C03A29A084E30048460E /* ViewController.swift */,
 				B742C04C29A2CCCE0048460E /* TrailerViewController.swift */,
+				B7DE478429A5247F00164A82 /* Trailer.swift */,
 				B742C04A29A276250048460E /* trailers.json */,
 				B742C03C29A084E30048460E /* Main.storyboard */,
 				B742C03F29A084E40048460E /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B742C04D29A2CCCE0048460E /* TrailerViewController.swift in Sources */,
+				B7DE478529A5247F00164A82 /* Trailer.swift in Sources */,
 				B742C03B29A084E30048460E /* ViewController.swift in Sources */,
 				B742C03729A084E30048460E /* AppDelegate.swift in Sources */,
 				B742C03929A084E30048460E /* SceneDelegate.swift in Sources */,
